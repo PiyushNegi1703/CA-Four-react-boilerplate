@@ -14,7 +14,7 @@ export default function QuestionBox(props) {
               </div>
 
               <div>
-                  <button style={{border : "1px solid blue", padding : "5px", color : "blue", boxShadow : "0 2px 2px black"}}>Play Again</button>
+                  <button style={{border : "1px solid blue", padding : "5px", color : "blue", boxShadow : "0 2px 2px black", cursor : "pointer"}} onClick={() => window.location.reload()}>Play Again</button>
               </div>
           </div>
 			    ) : (
